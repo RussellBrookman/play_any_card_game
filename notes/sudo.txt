@@ -1,0 +1,119 @@
+Notes:
+
+	webpack: for bundling our code in one js file
+	babel: to convert es6 into es5 understandable code. Basicly giving me es6.
+		babel-loader: loading babel files
+		less-loader: 
+			Needs: style-loader, css-loader: append CSS to index.html
+	draggable click: is set to false as a default
+	array: look up docs: 
+		map: array prototype, higher order function
+		passing down images as props
+
+Questions: 
+Npm build: /public/index.html: 
+		Learn how to configure a non-root public URL by running `npm run build`.
+		Do I get rid of manifest.json?
+registerServiceWorker: 
+		After npm build, do I still need this?
+Webpack.config.js: 
+		make sure the routes are set up right.
+
+
+SUDO (in no particular order): 
+	The Board:
+		Backgroud-Repeat: CSS /done/
+	Game Setup page:
+		# of starting cards for player 1
+		# of starting cards for player 2
+	Players Page
+		Pre-game-setup
+			Status Counters - (players need to be able to name these)
+				(examples):	
+					HP
+					Poison
+					Energy
+				Fields:
+					Deck (library)
+					Discard pile (graveyard)
+					Out of game (exile) = button to show these cards
+					Virtual Card (token)
+				Save(button)
+			Tables:
+				Decks (mongo)
+					They should be able to customise how many of each card are in the deck
+					One preset standard Poker Deck
+				Pre-game-setup (saved presets from pre-game-setup)
+				Save(button)
+		Modify Deck: (same as above except that they can edit a current deck instead of starting from scratch)
+			Save(button)
+	Drag and Drop:
+		Create object
+		Get DnD working	/done/
+			Try to get stacked cards to behave like a stack that you can pick up the whole thing at once.
+		OnDrop Create class
+			onDrag invert colors of class
+			on drop into another class(card) create object array 
+	Deck:
+		On click draw
+		Buttons:
+			Shuffle
+			Search
+		Drag card on to deck:
+			Options:
+				Put card on top
+				Put card on bottom
+				Put card into deck and shuffle
+				Shuffle deck and then put card ontop of it
+				Suffle deck and then put card on bottom of it
+	Card stacks: (including discard pile)
+		Any card should be able to be moved
+		On-click: show all cards on a stack
+	Cards on field: 
+		Counters shown on top left of cards
+		Top Right (+1)
+		Just below Top Right (-1)
+	Hand:
+		Hide from other players
+			3 rows on field (this can be used to organize cards in any way but can also be used to show hand)
+	Text Dropdown or permanent: (The Players Need to be able to talk to each other)
+		Consider using Firebase
+	Start Page:
+		User Name
+		Email
+		Password
+			First Sign in: Confirm Password 
+			(if in need of an API use FB sign in)
+	Players Page: 
+		Buttons	(in order)
+			Start game
+				Players I know (search only players you have added as a friend)
+				New Player Search (search all players)
+					Either way:
+						List available players on line 
+						Icon or color change indicatig they are in the middle of a game
+					Show players name:
+						Do you want to play against this player (yes, no)
+					Rules (Player 2, the player being challenged, must choose to accept or modify the "Pre-game-setup")
+						If no change - go to gameStart
+						If change - player 1 must accept change
+							If no accept (player 1 must change or do what he want's until lhe presses accept)
+							Player 2 must accept
+					Choose Deck
+						No restriction:
+							(they can pick the poker deck if they choose)
+					Go to game board:
+						OnStart: 
+							Shuffle Decks
+							Alert player one and two who's going first and second
+								(consider showing a coin flip graphic)
+							Start player 1 and 2 with the appropriate amount of cards (make sure they are from the top)
+			Make Deck:
+				(see above)
+			Modify Deck:
+				(see above)
+			Show decks:
+				(see above)
+				Available imediately due to starting with a poker deck
+			Instructions:
+				(obvious, but try to include screen shots for players to see)

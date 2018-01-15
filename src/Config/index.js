@@ -1,0 +1,1 @@
+export { db } from './Firebase/db_config';

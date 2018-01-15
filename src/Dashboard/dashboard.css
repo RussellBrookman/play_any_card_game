@@ -1,0 +1,32 @@
+.dashboardContainer {
+  background-image: url('./img/black_lotus.jpeg');
+  background-size: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+}
+
+.title {
+  font-weight: bold;
+  color: darkred;
+  padding: 10%;
+  text-decoration: underline;
+}
+
+.imageOfPokerHand {
+	width: auto;
+	height: auto;
+  position: absolute;
+  border-color: none;
+  top: 43%;
+  left: auto; 
+}
+
+.startGame {
+  background-color: blue;
+  color: white;
+  box-shadow: 4px 4px 6px 1px darkblue ;
+  width: 15%;
+  position: relative;
+  margin: 0 0 0 15%;
+}

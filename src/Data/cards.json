@@ -1,0 +1,212 @@
+{
+  "cards": [
+    { 
+      "name": "ace of clubs",
+      "key": "./img/poker_deck/aceOfClubs.jpg"
+    },
+    {
+      "name": "ace of spades",
+      "key": "./img/poker_deck/aceOfSpades.jpg"
+    },
+    {
+      "name": "ace of dimonds",
+      "key": "./img/poker_deck/aceOfDimonds.jpg"
+    },
+    {
+      "name": "ace of hearts",
+      "key": "./img/poker_deck/aceOfHearts.jpg"
+    },
+    {
+      "name": "king of clubs",
+      "key": "./img/poker_deck/kingOfClubs.jpg"
+    },
+    {
+      "name": "king of spades",
+      "key": "./img/poker_deck/kingOfSpades.jpg"
+    },
+    {
+      "name": "king of dimonds",
+      "key": "./img/poker_deck/kingOfDimonds.jpg"
+    },    
+    {
+      "name": "king of hearts",
+      "key": "./img/poker_deck/kingOfHearts.jpg"  
+    },
+    {
+      "name": "queen of clubs",
+      "key": "./img/poker_deck/queenOfClubs.jpg"
+    },
+    {
+      "name": "queen of spades",
+      "key": "./img/poker_deck/queenOfSpades.jpg"
+    },
+    {
+      "name": "queen of dimonds",
+      "key": "./img/poker_deck/queenOfDimonds.jpg"
+    },
+    {
+      "name": "queen of hearts",
+      "key": "./img/poker_deck/queenOfHearts.jpg"  
+    },
+    {
+      "name": "jack of clubs",
+      "key": "./img/poker_deck/jackOfClubs.jpg"
+    },
+    {
+      "name": "jack of spades",
+      "key": "./img/poker_deck/jackOfSpades.jpg"
+    },
+    {
+      "name": "jack of dimonds",
+      "key": "./img/poker_deck/jackOfDimonds.jpg"
+    },
+    {
+      "name": "jack of hearts",
+      "key": "./img/poker_deck/jackOfHearts.jpg"  
+    },
+    {
+      "name": "ten of clubs",
+      "key": "./img/poker_deck/tenOfClubs.jpg"
+    },
+    {
+      "name": "ten of spades",
+      "key": "./img/poker_deck/tenOfSpades.jpg"
+    },
+    {
+      "name": "ten of dimonds",
+      "key": "./img/poker_deck/tenOfDimonds.jpg"
+    },
+    {
+      "name": "ten of hearts",
+      "key": "./img/poker_deck/tenOfHearts.jpg"  
+    },
+    {
+      "name": "nine of clubs",
+      "key": "./img/poker_deck/nineOfClubs.jpg"
+    },
+    {
+      "name": "nine of spades",
+      "key": "./img/poker_deck/nineOfSpades.jpg"
+    },  
+    {  
+      "name": "nine of dimonds",
+      "key": "./img/poker_deck/nineOfDimonds.jpg"
+    },
+    {
+      "name": "nine of hearts",
+      "key": "./img/poker_deck/nineOfHearts.jpg"  
+    },
+    {
+      "name": "eight of clubs",
+      "key": "./img/poker_deck/eightOfClubs.jpg"
+    },
+    {
+      "name": "eight of spades",
+      "key": "./img/poker_deck/eightOfSpades.jpg"
+    },
+    {
+      "name": "eight of dimonds",
+      "key": "./img/poker_deck/eightOfDimonds.jpg"
+    },
+    {
+      "name": "eight of hearts",
+      "key": "./img/poker_deck/eightOfHearts.jpg"  
+    },
+    {
+      "name": "seven of clubs",
+      "key": "./img/poker_deck/sevenOfClubs.jpg"
+    },
+    {
+      "name": "seven of spades",
+      "key": "./img/poker_deck/sevenOfSpades.jpg"
+    },
+    {
+      "name": "seven of dimonds",
+      "key": "./img/poker_deck/sevenOfDimonds.jpg"
+    },
+    {
+      "name": "seven of hearts",
+      "key": "./img/poker_deck/sevenOfHearts.jpg"  
+    },
+    {
+      "name": "six of clubs",
+      "key": "./img/poker_deck/sixOfClubs.jpg"
+    },
+    {
+      "name": "six of spades",
+      "key": "./img/poker_deck/sixOfSpades.jpg"
+    },
+    {
+      "name": "six of dimonds",
+      "key": "./img/poker_deck/sixOfDimonds.jpg"
+    },
+    {
+      "name": "six of hearts",
+      "key": "./img/poker_deck/sixOfHearts.jpg"  
+    },
+    {
+      "name": "five of clubs",
+      "key": "./img/poker_deck/fiveOfClubs.jpg"
+    },
+    {
+      "name": "five of spades",
+      "key": "./img/poker_deck/fiveOfSpades.jpg"
+    },
+    {
+      "name": "five of dimonds",
+      "key": "./img/poker_deck/fiveOfDimonds.jpg"
+    },
+    {
+      "name": "five of hearts",
+      "key": "./img/poker_deck/fiveOfHearts.jpg"  
+    },
+    {
+      "name": "four of clubs",
+      "key": "./img/poker_deck/fourOfClubs.jpg"
+    },
+    {
+      "name": "four of spades",
+      "key": "./img/poker_deck/fourOfSpades.jpg"
+    },
+    {
+      "name": "four of dimonds",
+      "key": "./img/poker_deck/fourOfDimonds.jpg"
+    },
+    {
+      "name": "four of hearts",
+      "key": "./img/poker_deck/fourOfHearts.jpg"  
+    },
+    {
+      "name": "three of clubs",
+      "key": "./img/poker_deck/threeOfClubs.jpg"
+    },
+    {
+      "name": "three of spades",
+      "key": "./img/poker_deck/threeOfSpades.jpg"
+    },
+    {
+      "name": "three of dimonds",
+      "key": "./img/poker_deck/threeOfDimonds.jpg"
+    },
+    {
+      "name": "three of hearts",
+      "key": "./img/poker_deck/threeOfHearts.jpg"  
+    },
+    {
+      "name": "two of clubs",
+      "key": "./img/poker_deck/twoOfClubs.jpg"
+    },
+    {
+      "name": "two of spades",
+      "key": "./img/poker_deck/twoOfSpades.jpg"
+    },
+    {
+      "name": "two of dimonds",
+      "key": "./img/poker_deck/twoOfDimonds.jpg"
+    },
+    {
+      "name": "two of hearts",
+      "key": "./img/poker_deck/twoOfHearts.jpg"
+    }
+  ]
+}  
